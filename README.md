@@ -48,3 +48,5 @@ The File Integrity Monitor (FIM) developed as part of my project successfully de
 This project highlights how straightforward programming techniques can be employed to address a critical cybersecurity concern, making file monitoring accessible to smaller organizations, personal users, and students. Additionally, the FIM serves as a foundation for future enhancements, such as real-time monitoring, integration with notification systems, and support for larger, more complex environments.
 
 Overall, my project underscores the value of lightweight, customizable tools in enhancing security practices and reinforces the importance of integrity checks in protecting sensitive data from malicious actors or accidental alterations.
+
+<img width="457" alt="image" src="https://github.com/user-attachments/assets/e822e81d-01aa-490b-8389-20c90d4ff93b" />
