@@ -49,11 +49,11 @@ Implementation (proof of concept):
  
 
 (2)	We then run the cat command to ensure our files were added to the baseline.txt file.
- ![image](https://github.com/user-attachments/assets/3d6c3e49-c61f-4415-a1b8-8b041b00a8fa)
+![image](https://github.com/user-attachments/assets/3d6c3e49-c61f-4415-a1b8-8b041b00a8fa)
 
 
 (3)	By selecting option B in my python code, we begin to monitor the files which are saved within the baseline (testfile1.txt and testfile2.txt). Option B tells us the integrity of the test files letting us know if they have been changed or tampered with. Here we see there is no change.
- ![image](https://github.com/user-attachments/assets/e1c32298-7f37-4ac2-b985-1c00393e9f55)
+![image](https://github.com/user-attachments/assets/e1c32298-7f37-4ac2-b985-1c00393e9f55)
 
 
 (4)	We change and modify testfile1.txt to see if my python code (the FIM) will capture it and let us know it’s been changed. The monitoring should catch on to us and let us know the integrity of this file is compromised and has been changed.
