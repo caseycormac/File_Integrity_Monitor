@@ -45,23 +45,28 @@ The proposed FIM system will demonstrate the practicality of leveraging Python l
 Implementation (proof of concept):
 
 (1)	Collect a new baseline for files within the /Files directory. For this example, I have testfile1.txt and testfile2.txt with the /Files Directory. By adding these test files to the baseline, we give them a hash which is used to check their integrity in future. This is option A in my python Code.
+
 ![image](https://github.com/user-attachments/assets/ddbb5901-c27f-4b6d-9849-61cb0e1231bc)
  
 
 (2)	We then run the cat command to ensure our files were added to the baseline.txt file.
+
 ![image](https://github.com/user-attachments/assets/3d6c3e49-c61f-4415-a1b8-8b041b00a8fa)
 
 
 (3)	By selecting option B in my python code, we begin to monitor the files which are saved within the baseline (testfile1.txt and testfile2.txt). Option B tells us the integrity of the test files letting us know if they have been changed or tampered with. Here we see there is no change.
+
 ![image](https://github.com/user-attachments/assets/e1c32298-7f37-4ac2-b985-1c00393e9f55)
 
 
 (4)	We change and modify testfile1.txt to see if my python code (the FIM) will capture it and let us know it’s been changed. The monitoring should catch on to us and let us know the integrity of this file is compromised and has been changed.
+
 ![image](https://github.com/user-attachments/assets/ace81267-4786-4854-aced-2ff44acf3547)
 
  
 
 (5)	We choose option B once again to see if my code has picked up on the change to testfile1.txt which we did in screenshot 4. As we can see in this screenshot my FIM has noticed this and notifies us that testfile1.txt has been modified. This proves my code works and the FIM is useful and trustworthy.
+
 ![image](https://github.com/user-attachments/assets/3e1bbef2-0e38-4d3c-b942-cbf01625ad03)
  
 
